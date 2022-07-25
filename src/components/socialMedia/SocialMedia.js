@@ -2,10 +2,12 @@
 import React from "react";
 // Components
 import Assistant from "./Assistant";
+import Writing from "./Writing";
 const SocialMedia = () => {
   return (
-    <section>
+    <section className="bg-light">
       <Assistant />
+      <Writing />
     </section>
   );
 };
