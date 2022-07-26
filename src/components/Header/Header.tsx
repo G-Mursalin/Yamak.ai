@@ -1,7 +1,8 @@
 // React
 import React from "react";
 //Images
-import sync from "./../../images/synchronization.png";
+const sync = require("./../../images/synchronization.png");
+
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg">
