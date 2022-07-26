@@ -53,27 +53,27 @@ const Header = () => {
               </a>
             </li>
           </ul>
-          <div className="d-flex align-items-center">
-            <div className="ms-3 position-relative">
-              <img
-                src={sync}
-                role="button"
-                alt="user_sync"
-                className="rounded-circle"
-                style={{ width: "26px", height: "26px" }}
-              />
-              <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">
-                50 <span className="visually-hidden">unread messages</span>
-              </span>
-            </div>
-            <div className="ms-4">
-              <img
-                src="https://via.placeholder.com/40x40"
-                alt="user_image"
-                role="button"
-                className="rounded-circle"
-              />
-            </div>
+        </div>
+        <div className="d-flex align-items-center">
+          <div className="ms-3 position-relative">
+            <img
+              src={sync}
+              role="button"
+              alt="user_sync"
+              className="rounded-circle"
+              style={{ width: "26px", height: "26px" }}
+            />
+            <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">
+              50 <span className="visually-hidden">unread messages</span>
+            </span>
+          </div>
+          <div className="ms-4">
+            <img
+              src="https://via.placeholder.com/40x40"
+              alt="user_image"
+              role="button"
+              className="rounded-circle"
+            />
           </div>
         </div>
       </div>
